@@ -15,7 +15,7 @@ export const env = {
   jwtSecret: process.env.JWT_SECRET || 'syncspace-dev-secret-change-in-production',
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || '7d',
   geminiApiKey: process.env.GEMINI_API_KEY || '',
-  geminiModel: process.env.GEMINI_MODEL || 'gemini-2.0-flash',
+  geminiModel: process.env.GEMINI_MODEL || 'gemini-3-flash-preview',
   snapshotDebounceMs: Number(process.env.SNAPSHOT_DEBOUNCE_MS || 2500),
   roomIdleTimeoutMs: Number(process.env.ROOM_IDLE_TIMEOUT_MS || 300000),
 };

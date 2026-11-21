@@ -24,5 +24,8 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Local dev MongoDB data
+server/.local-mongo-data/
+
 # Test coverage
 coverage/
